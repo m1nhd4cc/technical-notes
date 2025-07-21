@@ -1,6 +1,5 @@
-# ===================================================================
 # QUẢN LÝ USER
-# ===================================================================
+# ============
 
 ### Cho phép một user (không phải root) đăng nhập SSH
 # 1. Sửa file cấu hình SSHD:
@@ -22,9 +21,8 @@
 # cd /var/spool/mail/
 # chown username:mail username
 
-# ===================================================================
 # PHÂN QUYỀN FILE VÀ THƯ MỤC
-# ===================================================================
+# ==========================
 
 ### Phân quyền cứng (immutable) để chống sửa/xóa file
 # Lệnh này làm cho file không thể bị thay đổi, ngay cả bởi user root.
