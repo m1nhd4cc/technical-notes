@@ -1,8 +1,3 @@
----
----
-
-## File: `/09-Miscellaneous/01-CKEditor.md`
-
 ## Xóa khoảng trắng trong tên file khi upload bằng CKFinder
 
 **Mục đích:** Tự động thay thế khoảng trắng bằng dấu `_` để tránh lỗi URL.
