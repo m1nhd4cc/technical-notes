@@ -1,6 +1,4 @@
-# ===================================================================
 # CẤU HÌNH REWRITE CƠ BẢN
-# ===================================================================
 
 ### Cấu hình rewrite cho Joomla
 <IfModule mod_rewrite.c>
@@ -37,9 +35,7 @@ RewriteRule (.*) /blog/$1 [L]
 RewriteRule ^([^\.]+)\/$ index.php?id=$1 [NC]
 
 
-# ===================================================================
 # BỘ SƯU TẬP CẤU HÌNH .HTACCESS
-# ===================================================================
 
 ### Set trang mặc định (thay cho index.php/html)
 DirectoryIndex info.html
@@ -102,9 +98,7 @@ RewriteRule ^([^_]*)_(.*)$ $1-$2 [E=uscor:Yes]
 RewriteCond %{ENV:uscor} ^Yes$
 RewriteRule (.*) http://yourdomain.com/$1 [R=301,L]
 
-# ===================================================================
 # BẢO MẬT VỚI .HTACCESS
-# ===================================================================
 
 ### Chặn hotlink hình ảnh
 Options +FollowSymlinks
@@ -148,9 +142,7 @@ Require valid-user
     Require valid-user
 </Files>
 
-# ===================================================================
 # CẤU HÌNH KHÁC
-# ===================================================================
 
 ### Cho phép Cross-Origin Resource Sharing (CORS)
 # Cho phép website khác sử dụng tài nguyên (font, css, js) từ site của bạn
