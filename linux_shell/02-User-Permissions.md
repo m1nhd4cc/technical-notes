@@ -1,5 +1,4 @@
 # QUẢN LÝ USER
-# ============
 
 ### Cho phép một user (không phải root) đăng nhập SSH
 # 1. Sửa file cấu hình SSHD:
