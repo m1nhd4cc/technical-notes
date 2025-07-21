@@ -22,11 +22,11 @@ $config['db']['dbname'] = 'mili_milivn';
 // ===================================================================
 
 // Redirect tạm thời (302)
-header('Location: [http://www.new-website.com/](http://www.new-website.com/)');
+header('Location: http://www.new-website.com/');
 exit;
 
 // Redirect vĩnh viễn (301 - Tốt cho SEO)
-header('Location: [http://www.new-website.com/](http://www.new-website.com/)', true, 301);
+header('Location: http://www.new-website.com/', true, 301);
 exit();
 
 
@@ -102,4 +102,6 @@ echo $output;
 // File my_script.sh
 // #!/bin/bash
 // echo "The variable from PHP is: $MY_VARIABLE"
+
+?>
 
