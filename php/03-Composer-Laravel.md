@@ -1,6 +1,4 @@
-# ===================================================================
 # LỆNH COMPOSER & LARAVEL
-# ===================================================================
 
 # Di chuyển vào thư mục gốc của dự án Laravel
 cd /home/davicneo/domains/davicneo.cnv.vn/public_html/system/
