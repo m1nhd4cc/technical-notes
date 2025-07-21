@@ -1,6 +1,4 @@
-# ===================================================================
 # QUẢN LÝ KEY SSH
-# ===================================================================
 
 ### Tạo cặp key SSH mới trên server
 # Lệnh này sẽ tạo ra 2 file trong ~/.ssh/: id_rsa (private key) và id_rsa.pub (public key)
@@ -17,9 +15,7 @@ vi /root/.ssh/authorized_keys
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/authorized_keys
 
-# ===================================================================
 # BẢO MẬT SSH
-# ===================================================================
 
 ### Chỉ cho phép một số IP nhất định được SSH
 # Cách này sử dụng TCP Wrappers, an toàn hơn việc chỉ dựa vào firewall.
