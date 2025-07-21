@@ -1,6 +1,4 @@
-# ===================================================================
 # CẤU HÌNH REDIRECT HTTP SANG HTTPS
-# ===================================================================
 
 # Mở file cấu hình của domain (ví dụ: /etc/nginx/sites-enabled/domain.conf)
 # và điều chỉnh lại block server cho port 80.
